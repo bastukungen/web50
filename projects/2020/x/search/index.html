@@ -9,26 +9,31 @@
                 top: 0;
                 right: 0;
             }
-            form {
+            
+            #searchform {
                 text-align: center;
-                margin: ;
+                margin-top: 15%;
             }
+            
             input,a {
                 font-size: 25px;
+                border-radius: 5px;
             }
         </style>
     </head>
     <body>
+        <div id="searchform">
         <form action="https://www.google.com/search">
             <input style="border-radius: 25px;" type="text" name="q"><br>
-            <input type="submit" value="Google Search">
+            <input type="submit" value="Google Search"><br>
         </form>
         <form action="https://www.google.com/search">
             <input type="submit" name="btnI" value="I’m Feeling Lucky">
-        </form>   
-    <div id="searchlinks">
-        <a href="imgsearch.html">Image Search</a>
-        <a href="advsearch.html">Advanced Search</a>
+        </form> 
+        </div>
+        <div id="searchlinks">
+            <a href="imgsearch.html">Image Search</a>
+            <a href="advsearch.html">Advanced Search</a>
     </div>
     </body>
 </html>
