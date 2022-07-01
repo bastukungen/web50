@@ -9,9 +9,32 @@
                 top: 0;
                 right: 0;
             }
+            form {
+                text-align: left;
+            }
         </style>
     </head>
     <body>
+        <form action="https://www.google.com/search">
+            <label for="allwords">
+                Find pages with… “all these words:”
+            </label>
+            <input id="allwords" type="text" name="as_q"><br>
+            <label for="exactwords">
+                Find pages with… “this exact word or phrase:”
+            </label>
+            <input id="exactwords" type="text" name="as_epq"><br>
+            <label for="anywords">
+                Find pages with… “any of these words:”
+            </label>
+            <input id="anywords" type="text" name="as_oq"><br>
+            <label for="nonewords">
+                Find pages with… “none of these words:”
+            </label>
+            <input id="nonewords" type="text" name="as_eq"><br>
+
+            <input style="background-color: blue;color:white" type="submit" value="Advanced Search">
+        </form>
     <div id="searchlinks">
         <a href="index.html">Google Search</a>
     </div>
