@@ -1,39 +1,43 @@
 <!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html lang="en">
-    <head>
-        <title>Search</title>
-        <style>
-            #searchlinks {
-                position: fixed;
-                top: 0;
-                right: 0;
-            }
-            
-            #searchform {
-                text-align: center;
-                margin-top: 15%;
-            }
-            
-            input,a {
-                font-size: 25px;
-                border-radius: 5px;
-            }
-        </style>
-    </head>
-    <body>
-        <div id="searchform">
+
+<head>
+    <title>Search</title>
+    <style>
+        #searchlinks {
+            position: fixed;
+            top: 0;
+            right: 0;
+        }
+
+        #searchform {
+            text-align: center;
+            margin-top: 15%;
+        }
+
+        input,
+        a {
+            font-size: 25px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="searchform">
         <form action="https://www.google.com/search">
             <input style="border-radius: 25px;" type="text" name="q"><br>
             <input type="submit" value="Google Search"><br>
         </form>
         <form action="https://www.google.com/search">
             <input type="submit" name="btnI" value="I’m Feeling Lucky">
-        </form> 
-        </div>
-        <div id="searchlinks">
-            <a href="imgsearch.html">Image Search</a>
-            <a href="advsearch.html">Advanced Search</a>
+        </form>
     </div>
-    </body>
+    <div id="searchlinks">
+        <a href="imgsearch.html">Image Search</a>
+        <a href="advsearch.html">Advanced Search</a>
+    </div>
+</body>
+
 </html>

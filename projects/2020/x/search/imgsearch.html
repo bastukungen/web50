@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html lang="en">
-    <head>
-        <title>Image Search</title>
-        <style>
-            #searchlinks {
-                position: fixed;
-                top: 0;
-                right: 0;
-            }
-            #searchform {
-                text-align: center;
-                margin-top: 15%;
-            }
-            input,a {
-                font-size: 25px;
-                border-radius: 5px;
-            }
-        </style>
-    </head>
-    <body>
-        <div id="searchform">
+
+<head>
+    <title>Image Search</title>
+    <style>
+        #searchlinks {
+            position: fixed;
+            top: 0;
+            right: 0;
+        }
+
+        #searchform {
+            text-align: center;
+            margin-top: 15%;
+        }
+
+        input,
+        a {
+            font-size: 25px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="searchform">
         <form action="https://www.google.com/images">
             <input style="border-radius: 25px;" type="text" name="q">
             <br>
@@ -30,5 +35,6 @@
     <div id="searchlinks">
         <a href="index.html">Google Search</a>
     </div>
-    </body>
+</body>
+
 </html>
