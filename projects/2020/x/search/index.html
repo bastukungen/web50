@@ -1,12 +1,24 @@
 <!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html lang="en">
     <head>
         <title>Search</title>
+        <style>
+            #searchlinks {
+                position: fixed;
+                top: 0;
+                right: 0;
+            }
+        </style>
     </head>
     <body>
         <form action="https://www.google.com/search">
             <input type="text" name="q">
             <input type="submit" value="Google Search">
         </form>
+    <div id="searchlinks">
+        <a href="imgsearch.html">Image search</a>
+        <a href="advsearch.html">Advanced search</a>
+    </div>
     </body>
 </html>
